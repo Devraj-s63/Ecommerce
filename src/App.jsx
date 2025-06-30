@@ -4,7 +4,7 @@ import Shop from "./Pages/Shop";
 import Product from "./Pages/Product";
 import ShopCategory from "./Pages/ShopCategory";
 import Cart from "./Pages/Cart";
-import LoginSignup from "./Pages/loginSignup";
+import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer";
 import men_banner from "./assets/banner.jpg";
 import women_banner from "./assets/women_banner.avif";
