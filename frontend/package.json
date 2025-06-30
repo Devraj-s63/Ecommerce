@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/Devraj-s63/Ecommerce.git",
+ "homepage": "https://Devraj-s63.github.io/Ecommerce",
   "name": "ecommerce",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist -r https://github.com/Devraj-s63/Ecommerce.git"
   },
   "dependencies": {
     "react": "^19.1.0",
