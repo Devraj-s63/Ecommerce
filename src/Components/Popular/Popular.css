@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 90vh;
+    min-height: 90vh;
       /* background: linear-gradient(180deg,#e1ffea22,#a7f6f6 60%); */
 
 }
@@ -21,5 +21,22 @@
 .popular-item{
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .popular {
+    height: auto;
+    padding: 20px;
+  }
+  .popular h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .popular-item {
+    gap: 15px;
+    margin-top: 30px;
+  }
 }

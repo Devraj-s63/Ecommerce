@@ -1,11 +1,14 @@
 .item {
-  width: 200px;
+  width: 100%;
+  max-width: 250px;
   border: 1px solid black;
   border-radius: 20px;
 }
 .item img {
-  width: 200px;
-  height: 350px;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/5;
+  object-fit: cover;
   align-items: center;
   justify-content: center;
   border-top-left-radius: 20px;
