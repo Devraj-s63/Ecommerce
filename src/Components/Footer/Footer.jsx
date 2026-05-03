@@ -9,30 +9,30 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="footer-logo">
-        <img src={logo} alt="" height="40px"/>
+        <img src={logo} alt="" height="40px" />
         <p>Sellverse</p>
       </div>
       <ul className='footer-links'>
-<li>About</li>
-<li>Products</li>
-<li>Offices</li>
-<li>Company</li>
-<li>Contact</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Offices</li>
+        <li>Company</li>
+        <li>Contact</li>
       </ul>
       <div className="footer-social-icon">
         <div className="footer-icon-container">
-            <img src={instagram_icon} alt=""  height="30px" />
+          <img src={instagram_icon} alt="" height="30px" />
         </div>
         <div className="footer-icon-container">
-             <img src={facebook_icon} alt="" height="30px" />
+          <img src={facebook_icon} alt="" height="30px" />
         </div>
         <div className="footer-icon-container">
-             <img src={whatsapp_icon} alt=""  height="30px" />
+          <img src={whatsapp_icon} alt="" height="30px" />
         </div>
       </div>
       <div className="footer-copyright">
         <hr />
-        <p>Copyright @ 2025 - All Right Reserved</p>
+        <p>Copyright @ 2026 - All Right Reserved</p>
       </div>
     </div>
   )
